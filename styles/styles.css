@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+.class-selector{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    font-family: Bangers;
+}
+
+img {
+    width: 500 px;
+    height: 500 px;
+    text-align: center;
+    display: block;
+}
+
+.img-container {
+    width: 200 px;
+    height: 200 px;
+    text-align: center;
+    display: block;
+}
+
+.bold{
+    font-weight: 'Bold'
+}
+
+.arial-font{
+    font-family: 'Arial';
+}
+
+.bangers-font{
+    font-family: 'Bangers';
+}

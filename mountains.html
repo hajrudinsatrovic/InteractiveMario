@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> Mario's Adventure! </title>
+        <link rel="icon" href="assets/MarioIcon.png" />
+        <link href='styles/styles.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Mario has decided to take the mountains to get to Princess!</h1>
+        <hr>
+        <img src='assets/mountains.jpeg' width='750' class = "center">
+        <h2> Mario now needs to make a decision whether to go left or right! </h2>
+        <h2>What do you do?</h2>
+        <hr>
+        <ul>
+            <a id='left' href='left.html' style = "text-align:center;display:block;">Go left! </a> </li>
+            <a id='right' href='right.html' style = "text-align:center;display:block;">Go right! </a> </li>
+        </ul>
+        <p>
+        <a id='exit' href='overworld.html' style = "text-align:center;display:block;">Exit</a>
+        </p>
+    <script> 
+        exit.href += location.search; //append queryString to exit href
+        left.href += location.search; //append queryString to left href
+        right.href += location.search; //append queryString to right href
+    </script>
+    </body>
+</html>

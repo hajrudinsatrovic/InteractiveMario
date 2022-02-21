@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> Mario's Adventure! </title>
+        <link rel="icon" href="assets/MarioIcon.png" />
+        <link href='styles/styles.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class='class-selector'>OVERWORLD</h1>
+        <hr>
+        <h2 class='class-selector'>Mario needs help deciding where to go next!</h2>
+        <img src='assets/Question_Block_NSMB.png' width="250" class = "center">
+        <h2 class='bangers-font' style = "text-align:center;display:block;"> Where should Mario go on his next adventure?</h2>
+        <hr>
+        <ul>
+            <a id='mysterydoor' href='mysterydoor.html' style = "text-align:center;display:block;"> mystery door </a> </li>
+            <a id='bridge' href='bridge.html' style = "text-align:center;display:block;"> bridge </a> </li>
+            <a id='mountains' href='mountains.html' style = "text-align:center;display:block;"> mountains </a> </li>
+        </ul>
+        <script> 
+            bridge.href += location.search; //concat the search parameter to the anchor's href attribute
+            mysterydoor.href += location.search; //concat the search parameter to the anchor's href attribute
+            mountains.href += location.search; //concat the search parameter to the anchor's href attribute
+        </script>
+    </body>
+</html>
